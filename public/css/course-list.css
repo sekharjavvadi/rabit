@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+}
+
+body a {
+    color: black;
+}
+
+body a:hover {
+    text-decoration: none;
+}
+
+
+
+
+/*heading*/
+
+.heading {
+    padding-top: 100px;
+    color:  rgba(5, 5, 114, 0.952);
+    text-align: center;
+}
+
+.heading h2 {
+    font-size: 54px;
+    font-weight: 900;
+    padding-top: 10px;
+}
+
+
+/*course-lists*/
+
+.course-list {
+    height: 250px;
+    width: 1200px;
+    display: inline-flex;
+    padding: 20px 20px 20px 180px;
+    text-align: center;
+    color: rgb(73, 73, 73);
+}
+
+.new-svg{
+    fill: rgb(58, 57, 57);
+    padding-top: 20px;
+    height: 70px;
+    width: 70px;
+}
+
+.course-list p{
+    padding-top: 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.boxes {
+    height: 250px;
+    width: 350px;
+    border: 1px solid rgb(177, 176, 176);
+    padding: 20px 40px;
+    margin-left: 20px;
+}
+
+.course-list-2 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.boxes:hover {
+    background-color:  rgba(5, 5, 114, 0.911);
+    color: white;
+    transition: 0.4s all;
+    cursor: pointer;
+}
+
+.boxes:hover .new-svg {
+    fill: white;
+}
+
+.boxes:hover a {
+    color: white;
+}
